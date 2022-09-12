@@ -1,0 +1,35 @@
+.card {width: 80vw; height: 80vh; border-style:none; background-color:transparent;}
+.research-card, .projects-card{
+height:10vw; border-style:none;margin: 10px; transition:0.5s;
+}
+.research-card:hover, .projects-card:hover{
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+.research-card::before, .card::after, .projects-card::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale3d(0, 0, 1);
+  transition: transform .3s ease-out 0s;
+  background: rgba(255, 255, 255, 0.1);
+  content: '';
+  pointer-events: none;
+}
+.research-card::before, .projects-card::before {
+  transform-origin: left top;
+}
+.research-card::after, .projects-card::after {
+  transform-origin: right bottom;
+}
+.research-card:hover::before, .projects-card:hover::before,
+.research-card:hover::after, .projects-card:hover::after,
+.research-card:focus::before, .projects-card:focus::before,
+.research-card:focus::after,  .projects-card:focus::after{
+  transform: scale3d(1, 1, 1);
+}
+.card-img-overlay{ background-image: radial-gradient(#DED0F2 1px, transparent 0);
+ background-size: 15px 15px; }
+.first{margin-left: 0px; }

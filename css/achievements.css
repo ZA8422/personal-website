@@ -1,0 +1,38 @@
+.tilesWrap {
+	padding: 0;
+	margin: 50px auto;
+	list-style: none;
+	text-align: center;
+}
+.tilesWrap li {
+	display: inline-block;
+	width: 26%;
+	position: relative;
+	vertical-align: top;
+	margin: 10px;
+	text-align: left;
+}
+.tilesWrap li:nth-child(1),.tilesWrap li:nth-child(3){color:#a7e4f1; }
+.tilesWrap li h2 {
+	font-size: 114px;
+	margin: 0;
+	position: absolute;
+	opacity: 0.2;
+	top: 50px;
+	right: 10px;
+	transition: all 0.3s ease-in-out;
+}
+.tilesWrap li h3 {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.tilesWrap li p {
+	font-size: 16px;
+	line-height: 18px;
+	margin-top: 5px;
+}
+.tilesWrap li:hover h2 {
+	top: 0px;
+	opacity: 0.6;
+}
+.achievements-title{text-decoration: underline;}

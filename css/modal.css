@@ -1,0 +1,14 @@
+
+.typewrite:hover{color:#DED0F2;}
+.typewrite > .wrap { border-right: 0.08em solid #fff; animation: caret 1s steps(1) infinite;
+}
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }}
+
+.modal-body{text-align: center;}
+.modal-content{
+border: none;
+font-size: 30px;}
+.modal-title {font-size: 66px;}

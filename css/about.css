@@ -1,0 +1,6 @@
+.sameline{display:flex; }
+.ema {margin: 0 10px;}
+textarea{width: 50vw;}
+.form-button {margin:0px;padding:0px;}
+form{font-size: 18px;}
+input, textarea{border-radius: 5px; background-color: #DED0F2;}

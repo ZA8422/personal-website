@@ -1,0 +1,54 @@
+
+.progress_bar {
+    margin-bottom: 5px;
+    position: relative;
+    width: 22vw;
+}
+.progress_bar_title {
+    display: inline;
+    font-size: 13px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.progress_number {
+    font-size: 13px;
+    font-weight: 900;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    top: 0;
+}
+.progress_bar_holder {
+    background: #d6d9dc;
+    margin-top: 5px;
+}
+.progress_bar_content {
+    height: 5px;
+}
+@-webkit-keyframes animate-positive{
+    0% { width: 0%; }
+}
+@keyframes animate-positive{
+    0% { width: 0%; }
+}
+.box{padding:0px;width: 26vw;}
+.listitem { margin: 5px 20px;list-style-type: disc;}
+#skillsul {padding:0px;}
+.f {animation-duration: 2s;}
+.s {animation-duration: 3s;}
+.t {animation-duration: 4s;}
+.fo{animation-duration: 4.5s;}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.skillupper{display:flex;}
+.skilllower{display:flex;}
+#chartsoftwares, #chartinterests{width: 25vw;
+        height:38vh;
+        margin: 0;
+        padding: 0; }
