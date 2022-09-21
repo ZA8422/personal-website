@@ -24,24 +24,27 @@
     font-family: "Cyberfunk";
     src: url("fonts/SpecialElite.ttf");
 }
-body{height: 100vh; font-family: "Cyberfunk"; background-color: #3e112c; color:#DED0F2;
+body{cursor: url(img/cursor_normal.png), auto;
+height: 100vh; font-family: "Cyberfunk"; background-color: #3e112c; color:#DED0F2;
 }
 #images img {float:left;}
 .hello{ width: 260px; position: absolute; }
 .content { width: 56vw; position: relative; visibility:hidden; height: 80vh;}
 .experience-content, .about-content, .empty-content, .skills-content, .research-content, .achievements-content, .projects-content {position:absolute; top: 0;
   left: 0;}
-.btn {font-family: "Cyberfunk";color:#DED0F2; font-size: 20px;}
-.btn:hover{color:#A7E4F1;}
+.btn {animation-name: fadeInOpacity; animation-duration: 5s; animation-iteration-count: 1; font-family: "Cyberfunk";color:#DED0F2; font-size: 20px;cursor: url(img/cursor_ho.png), auto; padding: 0; }
+.btn:hover{color:#A7E4F1;  }
+.butn{cursor: url(img/cursor_ho.png), auto; }
 .foot{display:inline; margin: 0 10px; }
 footer{font-size: 9px; z-index:1;}
 .fir{padding:0px; margin-left:0px;}
-a { color:#DED0F2; text-decoration: none; }
+a { color:#DED0F2; text-decoration: none; cursor: url(img/cursor_ho.png), auto; }
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; color:#A7E4F1;}
 a:active { text-decoration: none; }
 a:focus{color:#A7E4F1;}
+.titles{cursor: url(img/cursor_normal.png), auto;}
 .wra{flex-direction: column;}
 .go-back{padding: 0px; margin: 0px; width: 50px;}
 .code-link, .paper-link{font-size: 20px; display:float; color:#a7e4f1;}
@@ -58,16 +61,16 @@ a:focus{color:#A7E4F1;}
 
 <body>
 <div class=" h-100 d-flex justify-content-center align-items-center wra" >
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal fade" data-keyboard="false" data-backdrop="static" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content bg-transparent">
       <div class="modal-body">
           <h1 class="modal-title" id="exampleModal">I'm Zina A.</h1>
-          <p><a href="" class="typewrite" data-period="2000" data-type='[ "Computer Scientist", "TedX Speaker", "Designer" ]'>
+          <p class="titles"><a  class="titles typewrite" data-period="2000" data-type='[ "Computer Scientist", "TedX Speaker", "Designer" ]'>
             <span class="wrap"></span>
             </a>
           </p>
-          <button type="button" class="btn modal-button" data-dismiss="modal">Explore</button>
+          <button type="button" class="btn modal-button" data-dismiss="modal"><a class="butn">Explore</a></button>
       </div>
     </div>
   </div>
@@ -91,7 +94,7 @@ a:focus{color:#A7E4F1;}
     <div class="card justify-content-center align-items-center conta">
             <div class="mb-auto p-2 content about-content align-self-start d-flex flex-column">
                 <h2 >About</h2>
-                <p id="intro paragraph">hi, this is a short intro about me.<br/>rfhiuenvjnvjenfbvjk<br/>erjnqubvrbivWF </p>
+                <p id="intro paragraph">A Computer Science student familiar with gathering, cleaning, and organizing data for use, processing, and visualization. Advanced Understanding of statistical, algerbraic, and other analytical, techniques. Highly organized, motivated, and a natural leader, with a significant background in Artificial Intelligence, Math, ML, IoT, and Data Analytics.</p>
                 <h4 >Education</h4>
                 <p id="education"><b>BSc Computer Science - Artificial Intelligence</b><br/>The British University in Dubai<br/>2019-2023</p>
                 <h4>Reach out</h4>
@@ -195,7 +198,7 @@ a:focus{color:#A7E4F1;}
                                 </div>
                                 <div class="progress_bar ">
                                     <div class="progress_holder">
-                                        <div class="progress_bar_title">C++</div>
+                                        <div class="progress_bar_title">C++, JavaScript</div>
                                         <div class="progress_number">60%</div>
                                     </div>
                                     <div class="progress_bar_holder">
@@ -254,7 +257,7 @@ a:focus{color:#A7E4F1;}
                             </div>
                                 <div class="card sixth research-card">
                                  <div class="card-img-overlay  d-flex flex-column justify-content-end">
-                                    <h5 ></h5>
+                                    <h5 >Published Philosophy Paper</h5>
                                  </div>
                             </div>
                     </div>
@@ -284,7 +287,7 @@ a:focus{color:#A7E4F1;}
             </div>
             <div class="mb-auto p-2 content achievements-content  d-flex flex-column">
                 <h2 class="card-title achievements-title">Achievements</h2>
-                <div class="container bcontent ">
+                <div class="container">
                            <ul class="tilesWrap">
                                 <li>
                                     <h2>01</h2>
@@ -314,6 +317,7 @@ a:focus{color:#A7E4F1;}
                                         <b>2022</b><br />Picked by The British University in Dubai to give a tedx on sustainability.
                                     </p>
                                 </li>
+
                             </ul>
                 </div>
             </div>
@@ -356,31 +360,12 @@ a:focus{color:#A7E4F1;}
                             </div>
                         </div>
                     </div>
-                        <div class="row g-2">
-                                <div class="card-group">
-                                 <div class="card seventh first projects-card">
-                                     <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
-                                        <h5 ></h5>
-                                     </div>
-                                </div>
-                                 <div class="card eighth projects-card">
-                                     <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
-                                        <h5 ></h5>
-                                     </div>
-                                </div>
-                                    <div class="card ninth projects-card">
-                                     <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
-                                        <h5 ></h5>
-                                     </div>
-                                    </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="mb-auto p-2 content empty-content  d-flex flex-column">
                 <h2 id="empty-title"></h2>
                 <p class="empty-summary"></p>
-                <button class="go-back btn">back</button>
+                <button class="go-back btn"><a class="butn">back</a></button>
             </div>
             <div class="hello">
                 <div id="head" class=" d-flex justify-content-center" >
@@ -406,372 +391,8 @@ a:focus{color:#A7E4F1;}
                         </ul>
     </footer>
 </div>
-<script>
-    var TxtType = function(el, toRotate, period) {
-        this.toRotate = toRotate;
-        this.el = el;
-        this.loopNum = 0;
-        this.period = parseInt(period, 10) || 2000;
-        this.txt = '';
-        this.tick();
-        this.isDeleting = false;
-    };
-
-    TxtType.prototype.tick = function() {
-        var i = this.loopNum % this.toRotate.length;
-        var fullTxt = this.toRotate[i];
-
-        if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
-        } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1);
-        }
-
-        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-        var that = this;
-        var delta = 200 - Math.random() * 100;
-
-        if (this.isDeleting) { delta /= 2; }
-
-        if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period;
-        this.isDeleting = true;
-        } else if (this.isDeleting && this.txt === '') {
-        this.isDeleting = false;
-        this.loopNum++;
-        delta = 500;
-        }
-
-        setTimeout(function() {
-        that.tick();
-        }, delta);
-    };
-
-    window.onload = function() {
-        var elements = document.getElementsByClassName('typewrite');
-        for (var i=0; i<elements.length; i++) {
-            var toRotate = elements[i].getAttribute('data-type');
-            var period = elements[i].getAttribute('data-period');
-            if (toRotate) {
-              new TxtType(elements[i], JSON.parse(toRotate), period);
-            }
-        }
-    };
-</script>
-<script type="text/javascript">
-    $(function() {
-    $("#exampleModalCenter").modal('show');
-});
-    $( ".about" ).click(function() {
-    if( $(".experience-content").css("visibility") == 'visible'){
-    $(".experience-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".skills-content").css("visibility") == 'visible'){
-    $(".skills-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".research-content").css("visibility") == 'visible'){
-    $(".research-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".achievements-content").css("visibility") == 'visible'){
-    $(".achievements-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".projects-content").css("visibility") == 'visible'){
-    $(".projects-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".empty-content").css("visibility") == 'visible'){
-    $(".empty-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    if (  $( ".hello" ).css( "transform" ) == 'none' ){
-        $(".hello").css("transition","transform 300ms");
-        $(".hello").css("transform","translateX(360px)");
-        $(".card").css("background-color","#501639");
-    }
-    $(".about-content").css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0});
-
-});
-    $( ".experience" ).click(function() {
-    if( $(".about-content").css("visibility") == 'visible'){
-    $(".about-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".skills-content").css("visibility") == 'visible'){
-    $(".skills-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".research-content").css("visibility") == 'visible'){
-    $(".research-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".achievements-content").css("visibility") == 'visible'){
-    $(".achievements-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".projects-content").css("visibility") == 'visible'){
-    $(".projects-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".empty-content").css("visibility") == 'visible'){
-    $(".empty-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    if (  $( ".hello" ).css( "transform" ) == 'none' ){
-        $(".hello").css("transition","transform 300ms");
-        $(".hello").css("transform","translateX(360px)");
-        $(".card").css("background-color","#501639");
-    }
-    $(".experience-content").css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0});
-
-});
-    $( ".skills" ).click(function() {
-    if( $(".about-content").css("visibility") == 'visible'){
-    $(".about-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".experience-content").css("visibility") == 'visible'){
-    $(".experience-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".research-content").css("visibility") == 'visible'){
-    $(".research-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".achievements-content").css("visibility") == 'visible'){
-    $(".achievements-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".projects-content").css("visibility") == 'visible'){
-    $(".projects-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".empty-content").css("visibility") == 'visible'){
-    $(".empty-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    if (  $( ".hello" ).css( "transform" ) == 'none' ){
-        $(".hello").css("transition","transform 300ms");
-        $(".hello").css("transform","translateX(360px)");
-        $(".card").css("background-color","#501639");
-    }
-    $(".skills-content").css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0});
-    if ( $("#chartinterests").is(':empty')){
-    $.getScript("js/interestschart.js");
-	$.getScript("js/softwareschart.js");}
-    $(".progress_bar_content").css("animation","animate-positive 4s");
-    $(".listitem").css({"opacity": "1",
-	"animation-name": "fadeInOpacity",
-	"animation-iteration-count": "1",
-	"animation-timing-function": "ease-in"});
-});
-    $( ".research" ).click(function() {
-    if( $(".about-content").css("visibility") == 'visible'){
-    $(".about-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".experience-content").css("visibility") == 'visible'){
-    $(".experience-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".skills-content").css("visibility") == 'visible'){
-    $(".skills-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".achievements-content").css("visibility") == 'visible'){
-    $(".achievements-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".projects-content").css("visibility") == 'visible'){
-    $(".projects-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".empty-content").css("visibility") == 'visible'){
-    $(".empty-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    if (  $( ".hello" ).css( "transform" ) == 'none' ){
-        $(".hello").css("transition","transform 300ms");
-        $(".hello").css("transform","translateX(360px)");
-        $(".card").css("background-color","#501639");
-    }
-    $(".research-content").css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0});
-});
-    $( ".achievements" ).click(function() {
-    if( $(".about-content").css("visibility") == 'visible'){
-    $(".about-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".experience-content").css("visibility") == 'visible'){
-    $(".experience-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".skills-content").css("visibility") == 'visible'){
-    $(".skills-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".research-content").css("visibility") == 'visible'){
-    $(".research-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".projects-content").css("visibility") == 'visible'){
-    $(".projects-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".empty-content").css("visibility") == 'visible'){
-    $(".empty-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    if (  $( ".hello" ).css( "transform" ) == 'none' ){
-        $(".hello").css("transition","transform 300ms");
-        $(".hello").css("transform","translateX(360px)");
-        $(".card").css("background-color","#501639");
-    }
-    $(".achievements-content").css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0});
-
-});
-    $( ".projects" ).click(function() {
-    if( $(".about-content").css("visibility") == 'visible'){
-    $(".about-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".experience-content").css("visibility") == 'visible'){
-    $(".experience-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".skills-content").css("visibility") == 'visible'){
-    $(".skills-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".achievements-content").css("visibility") == 'visible'){
-    $(".achievements-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".research-content").css("visibility") == 'visible'){
-    $(".research-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    else if( $(".empty-content").css("visibility") == 'visible'){
-    $(".empty-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    if (  $( ".hello" ).css( "transform" ) == 'none' ){
-        $(".hello").css("transition","transform 300ms");
-        $(".hello").css("transform","translateX(360px)");
-        $(".card").css("background-color","#501639");
-    }
-    $(".projects-content").css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0});
-
-});
-    $( ".research-card" ).click(function() {
-    $(".research-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    var getClass = this.classList;
-    var card = "";
-    switch(getClass[1]){
-              case "first":
-                card = "first";
-                break;
-              case "second":
-                card = "second";
-                break;
-              case "third":
-                 card = "third";
-                break;
-              case "fourth":
-                card = "fourth";
-                break;
-              case "fifth":
-                card = "fifth";
-                break;
-              case "sixth":
-                card = "sixth";
-                break;
-              case "seventh":
-                card = "seventh";
-                break;
-              case "eighth":
-                card = "eighth";
-                break;
-              case "ninth":
-                card = "ninth";
-        }
-    $.getJSON('data/research_data.JSON', function(obj) {
-        $('#empty-title').text(obj[card].title);
-        $('.empty-summary').text(obj[card].summary);
-        if(obj[card].code_link !== ""){
-        var $newEl = $("<a/>")
-                 .addClass("code-link")   // add a class
-                 .html("<br /><a>Code</a>");
-        $(".empty-summary").append($newEl);
-        $('.code-link').attr("href", obj[card].code_link);}
-        else{
-        $('.code-link').attr("href", "");
-        $('.code-link').remove();}
-        if(obj[card].file_link !== ""){
-        var $newEl = $("<a/>")
-                 .addClass("paper-link")   // add a class
-                 .html("<br /><a>Paper</a>");
-        $(".empty-summary").append($newEl);
-        $('.paper-link').attr("href", obj[card].file_link);}
-        else{
-        $('.paper-link').attr("href", "");
-        $('.paper-link').remove();}
-    });
-    $(".empty-content").css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0});
-    $( ".go-back" ).click(function() {
-    if( $(".empty-content").css("visibility") == 'visible'){
-    $(".empty-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    if( $(".projects-content").css("visibility") == 'visible'){
-    $(".projects-content").css( "visibility", "hidden");
-    }
-    $(".research-content").css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0});
-});
-});
-$( ".projects-card" ).click(function() {
-    $(".projects-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    $(".empty-content").css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0});
-    var getClass = this.classList;
-    var card = "";
-    switch(getClass[1]){
-              case "first":
-                card = "first";
-                break;
-              case "second":
-                card = "second";
-                break;
-              case "third":
-                 card = "third";
-                break;
-              case "fourth":
-                card = "fourth";
-                break;
-              case "fifth":
-                card = "fifth";
-                break;
-              case "sixth":
-                card = "sixth";
-                break;
-              case "seventh":
-                card = "seventh";
-                break;
-              case "eighth":
-                card = "eighth";
-                break;
-              case "ninth":
-                card = "ninth";
-
-        }
-    $.getJSON('data/projects_data.JSON', function(obj) {
-        $('#empty-title').text(obj[card].title);
-        $('.empty-summary').text( obj[card].summary);
-        if(obj[card].code_link !== ""){
-        var $newEl = $("<a/>")
-                 .addClass("code-link")
-                 .html("<br /><a>Code</a>");
-        $(".empty-summary").append($newEl);
-        $('.code-link').attr("href", obj[card].code_link);}
-        else{
-        $('.code-link').attr("href", "");
-        $('.code-link').remove();}
-        if(obj[card].file_link !== ""){
-        var $newEl = $("<a/>")
-                 .addClass("paper-link")   // add a class
-                 .html("<br /><a>Paper</a>");
-        $(".empty-summary").append($newEl);
-        $('.paper-link').attr("href", obj[card].file_link);}
-        else{
-        $('.paper-link').attr("href", "");
-        $('.paper-link').remove();}
-    });
-    $( ".go-back" ).click(function() {
-    if( $(".empty-content").css("visibility") == 'visible'){
-    $(".empty-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
-    }
-    if( $(".research-content").css("visibility") == 'visible'){
-    $(".research-content").css( "visibility", "hidden");
-    }
-    $(".projects-content").css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0});
-});
-});
-$(".modal-button").click(function(){
-    $(".about-menu").css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0});
-    $(".skills-menu").css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0});
-    $(".experience-menu").css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0});
-    $(".achievements-menu").css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0});
-    $(".research-menu").css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0});
-    $(".projects-menu").css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0});
-  });
-
-</script>
-<script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+<script type="text/javascript" src="js/modal.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 </body>
 </html>
