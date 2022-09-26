@@ -1,42 +1,36 @@
 {
   "first": {
     "title": "Case Study - Seat Allocation",
-    "image": "img/iotcs.jpg",
     "summary": "Object Oriented Programming (OOP) is a comprehensive solution and an efficient programming method that has gained recognition for its use to code applications large in size, or important in value. The value of OOP in more simple applications has been overlooked, especially in mundane, time-consuming tasks. Seat planning, or allocation, is one of those areas. An event seating plan seems easy to produce but the truth is, it is mainly why event planners are hired, and where most time and effort is spent when planning an event. In this paper, we show the OOP seat allocation program we have done, analyze its results, and discuss why it was easier with OOP. We have also followed the UP phases in the making of the project, and we have included our experience with it.",
     "code_link": "",
-    "file_link": "papers/seatAllocation.docx"
+    "file_link": ""
   },
   "second": {
     "title": "Blackboard Activity Stream Objects Retrieval",
-    "image": "img/iotcs.jpg",
     "summary": "By inputting a blackboard Activity Stream, Tasks, Assignments, Notifications, Announcements, and GradedTasks are retrieved",
     "code_link": "https://github.com/ZA8422/Blackboard-AS-Retrieval-",
     "file_link": ""
   },
   "third": {
     "title": "Encryption,and Decryption",
-    "image": "img/iotcs.jpg",
     "summary": "For this project, I wrote an encryption method, and a decryption method, for the monoalphabetic substitution cipher Keyword, and the polyalphabetic substitution cipher Vigenere.",
     "code_link": "https://github.com/ZA8422/CipherAlgorithms",
     "file_link": ""
   },
   "fourth": {
     "title": "Web Development Blog",
-    "image": "img/iotcs.jpg",
-    "summary": "",
+    "summary": "I created this blog in ASP.net and C#, and styled it using CSS.",
     "code_link": "",
     "file_link": ""
   },
   "fifth": {
     "title": "CPU Scheduling Algorithms",
-    "image": "img/iotcs.jpg",
     "summary": "The following cpu scheduling algorithms are analysed: FCFS, SJF, Priority, Round-Robin",
     "code_link": "https://github.com/ZA8422/CPUScheduling",
-    "file_link": "papers/CPUScheduling.docx"
+    "file_link": ""
   },
   "sixth": {
     "title": "Car Rental Database: From Designing to SQL code",
-    "image": "img/iotcs.jpg",
     "summary": "In this project, we created a Car Rental Database from scratch, drew the E-R diagram, normalised it, and, finally, implemented it in SQL.",
     "code_link": "",
     "file_link": "papers/carRentalDB.docx"

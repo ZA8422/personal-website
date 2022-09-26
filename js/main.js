@@ -204,6 +204,8 @@
         }
     $.getJSON('data/research_data.JSON', function(obj) {
         $('#empty-title').text(obj[card].title);
+        $('#empty-status').text(obj[card].status);
+        $("#empty-status").css( "display", "inline");
         $('.empty-summary').text(obj[card].summary);
         if(obj[card].code_link !== ""){
         var $newEl = $("<a/>")
@@ -238,6 +240,7 @@
 $( ".projects-card" ).click(function() {
     $(".projects-content").css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0.0});
     $(".empty-content").css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0});
+    $("#empty-status").css( "display", "none");
     var getClass = this.classList;
     var card = "";
     switch(getClass[1]){

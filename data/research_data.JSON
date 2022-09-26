@@ -1,63 +1,63 @@
 {
   "first": {
     "title": "Summarising a Twitter Feed Using Weighted Frequency",
-    "image": "img/filter.ico",
+    "status": "Accepted for publication",
     "summary": "This paper proposes summarising twitter feeds using weighted frequency as a manner of structuring them. The objectives we sought to achieve are: (1) Use the Twitter API to retrieve tweets successfully, (2) Efficiently detect the language of text, and tokenize it to then analyse their content (in its language), (3) Use live tweets as the input instead of a database of tweets, (4) Create the interface as a plugin to make it accessible for computer scientists, and others, alike. We also aimed to test whether using weighted frequency to construct summaries of tweets would be successful, and by conducting a survey to test our results, we have found that our program is seen to be useful, accessible, and efficient at giving summarizations of twitter accounts. Weighted frequency also proved to be good at summarising text of any language, inputted. ",
     "code_link": "https://github.com/ZA8422/Summarising-a-Twitter-Feed-using-Weighted-Frequency-",
-    "file_link": "papers/SummarisingUsingWeightedFreq.docx"
+    "file_link": ""
   },
   "second": {
     "title": "Critical Survey - Challenges and Opportunities of Integrating, and Securing IoT technology in public places",
-    "image": "img/iotcs.jpg",
+    "status": "Accepted for publication",
     "summary": "A critical survey of the challenges and opporunities of integrating, and securing Internet of Things (IoT) technology in public, crowded, places.",
     "code_link": "",
-    "file_link": "papers/iotsurvey.docx"
+    "file_link": ""
   },
   "third": {
     "title": "Critical Survey - Traffic Signal Control Models in an Agent-Based Simulation",
-    "image": "papers/trafficsignalsurvey.docx",
+    "status": "Submitted for publication",
     "summary": "Traffic congestion harms our economies, environment, and ourselves, since it increases the risk of accidents. The current Traffic Signal Control (TSC) is not efficient, and adaptive, scalable, and stable solutions are required. Agent-Based Simulations (ABS) have managed to become a way to simulate otherwise complicated scenarios, and a way to verify various systems before deploying them. This paper reviews recent literature on ABS of TSC. Papers are divided according to their aim; Using reinforcement learning and ABS to solve TSC, Introducing Novel algorithms and frameworks, and improving ABS softwares.",
     "code_link": "",
-    "file_link": "papers/trafficsignalsurvey.docx"
+    "file_link": ""
   },
   "fourth": {
     "title": "Franco-Arabic Corpus and Challenges",
-    "image": "papers/franco.docx",
+    "status": "Manuscript",
     "summary": "Romanized Arabic, or Arabic written in the Roman script, is commonly known as Franco-Arabic or Arabizi. Studies have shown that the use of Franco is on the rise, particularly in its written form, on social media. In this paper, we cover some of the issues in processing Franco, one of them being that there are no set rules, and the spelling of an Arabic word differs from dialect to dialect, and context to context. Therefore, we sought to build a Franco-Arabic corpus and use machine translation to see if it would be successful in translating Franco to Arabic. We used the 3,500 most used Arabic words online, as a starting point for the corpus, evaluated it manually, and achieved an accuracy of 92.4%.",
     "code_link": "",
-    "file_link": "papers/franco.docx"
+    "file_link": ""
   },
   "fifth": {
     "title": "A Web-based Car Fault Diagnostic Expert System",
-    "image": "img/iotcs.jpg",
+    "status": "Manuscript",
     "summary": "Automotive defects are a major cause of accidents, when they can be easily avoided by diagnosing the fault as soon as possible. We created this expert system to diagnose car faults, to aid both drivers and mechanics. The expert system uses a forward-chaining technique that follows a decision tree, designed by us, using expert knowledge, to reach its diagnosis. We have included the most common causes of defects, some of which can be fixed by drivers temporarily, and others which must be fixed by a mechanic. It is web-based to be accessible to everyone, everywhere, anytime. The web-based car diagnosis expert system successfully reaches the correct diagnosis. ",
     "code_link": "",
-    "file_link": "papers/carfaultexpertsystem.docx"
+    "file_link": ""
   },
   "sixth": {
     "title": "Compatibilism of Determinism and Free Will",
-    "image": "img/iotcs.jpg",
+    "status": "Published in Connections Magazine",
     "summary": "",
     "code_link": "",
     "file_link": ""
   },
   "seventh": {
     "title": "A Fully Integrated Smart Airport Stakeholders Application ",
-    "image": "img/iotcs.jpg",
+    "status": "Manuscript",
     "summary": "As Internet of Things (IoT) advances, it offers promising solutions to make crowded, public places, such as airports, more efficient, safe, and integrated. The objective of this paper is to combine all available IoT technology to improve the services provided by airports, be it something as small as janitor optimisation, or as crucial as making security checks more efficient. As well as implementing IoT in the management, resource allocation, flights, and runway optimisation, to mention a few. All by using suitable IoT technologies, to finally gather all this information, and using data analytics techniques we integrate them into a smart application that caters to the government, airport management, airline companies, airport employees, and passengers.",
     "code_link": "",
-    "file_link": "papers/SmartAirport.docx"
+    "file_link": ""
   },
    "eighth": {
     "title": "AI in Healthcare, Data Protection Law in the UAE, and a Crossover Taxonomy",
-    "image": "img/iotcs.jpg",
-    "summary": "In the below link, there are three papers: 1- A paper about AI in Healthcare, and its challenges 2- After the changes in data protection laws around the world, this paper explored the recent changes, and considered their impact in the UAE 3-The last paper is a crossover taxonomy with its analysis.",
+    "status": "Manuscripts",
+    "summary": "These are three papers: 1- A paper about AI in Healthcare, and its challenges 2- After the changes in data protection laws around the world, this paper explored the recent changes, and considered their impact in the UAE 3-The last paper is a crossover taxonomy with its analysis.",
     "code_link": "",
-    "file_link": "papers.zip"
+    "file_link": ""
   },
   "ninth": {
     "title": "Capstone Project",
-    "image": "img/iotcs.jpg",
+    "status": "Project Proposed",
     "summary": "",
     "code_link": "",
     "file_link": ""
