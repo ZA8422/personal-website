@@ -5,6 +5,11 @@
 .research-card, .projects-card{cursor: url(../img/cursor_ho.png), auto;
 height:10vw; border-style:none;margin: 10px; transition:0.5s;
 }
+@media screen and (max-width: 768px){
+.research-card, .projects-card{cursor: url(../img/cursor_ho.png), auto;
+height:15vw; border-style:none;margin: 10px; transition:0.5s;
+}
+}
 .research-card:hover, .projects-card:hover{
   transform: scale(1.05);
   box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
