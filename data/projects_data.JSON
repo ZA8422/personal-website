@@ -19,8 +19,8 @@
   },
   "fourth": {
     "title": "Web Development Blog",
-    "summary": "I created this blog in ASP.net and C#, and styled it using CSS.",
-    "code_link": "",
+    "summary": "In this project, I worked with a team of two. I was responsible for the styling, sitemap, and html pages of the site.",
+    "code_link": "https://github.com/zina-cs/WebDevBlog",
     "file_link": ""
   },
   "fifth": {
