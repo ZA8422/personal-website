@@ -24,7 +24,7 @@
     if (  $( ".hello" ).css( "transform" ) == 'none' ){
         if (window.matchMedia('(max-width: 767px)').matches) {
         $(".hello").css("transition","transform 300ms");
-        $(".hello").css("transform","translateX(320px)");
+        $(".hello").css("transform","translateX(300px)");
         } else {
         $(".hello").css("transition","transform 300ms");
         $(".hello").css("transform","translateX(360px)");
