@@ -2,8 +2,8 @@
   "first": {
     "title": "Case Study - Seat Allocation",
     "summary": "Object Oriented Programming (OOP) is a comprehensive solution and an efficient programming method that has gained recognition for its use to code applications large in size, or important in value. The value of OOP in more simple applications has been overlooked, especially in mundane, time-consuming tasks. Seat planning, or allocation, is one of those areas. An event seating plan seems easy to produce but the truth is, it is mainly why event planners are hired, and where most time and effort is spent when planning an event. In this paper, we show the OOP seat allocation program we have done, analyze its results, and discuss why it was easier with OOP. We have also followed the UP phases in the making of the project, and we have included our experience with it.",
-    "code_link": "",
-    "file_link": ""
+    "code_link": "https://github.com/zina-cs/SeatAllocation",
+    "file_link": "papers/SDA1.pdf"
   },
   "second": {
     "title": "Blackboard Activity Stream Objects Retrieval",
