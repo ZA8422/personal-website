@@ -4,7 +4,7 @@ anychart.onDocumentReady(function () {
        {x: "IDE", value: 100},
        {x: "Microsoft", value: 100},
        {x: "Unity", value: 55},
-       {x: "SQL", value: 80},
+       {x: "SQL", value: 90},
        {x: "AWS", value: 90}
      ];
      var chart = anychart.radar();

@@ -1,11 +1,11 @@
 
     anychart.onDocumentReady(function () {
      var data1 = [
-       {x: "AI", value: 75},
+       {x: "AI", value: 95},
        {x: "DB", value: 85},
-       {x: "DS", value: 90},
+       {x: "DS", value: 100},
        {x: "SE", value: 70},
-       {x: "Networking", value: 70},
+       {x: "Networking", value: 60},
        {x: "ML", value: 90}
      ];
      var chart = anychart.radar();
