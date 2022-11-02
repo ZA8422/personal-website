@@ -1,6 +1,6 @@
 
 .card {width: 80vw; height: 80vh; border-style:none; background-color:transparent;}
-.research-card, .projects-card{cursor: url(../img/cursor_h.png), auto;
+.research-card, .projects-card{cursor: url(img/cursor_h.png), auto;
 height:10vw; border-style:none;margin: 10px; transition:0.5s;
 }
 .research-card:hover, .projects-card:hover{
