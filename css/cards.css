@@ -3,7 +3,7 @@
 .research-card, .projects-card{cursor: url(img/cursor_h.png), auto;
 height:10vw; border-style:none;margin: 10px; transition:0.5s;
 }
-.research-card:hover, .projects-card:hover{
+.research-card:hover, .projects-card:hover{cursor: url(img/cursor_h.png)
   transform: scale(1.05);
   box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
 }
