@@ -1,13 +1,13 @@
 
 .card {width: 80vw; height: 80vh; border-style:none; background-color:transparent;}
-.research-card, .projects-card{cursor: url(img/cursor_h.png), auto;
+.research-card, .projects-card{cursor: url(img/cursor-try.png), auto;
 height:10vw; border-style:none;margin: 10px; transition:0.5s;
 }
-.research-card:hover, .projects-card:hover{cursor: url(img/cursor_h.png), auto;
+.research-card:hover, .projects-card:hover{cursor: url(img/cursor-try.png), auto;
   transform: scale(1.05);
   box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
 }
-.research-card::before, .card::after, .projects-card::before {cursor: url(img/cursor_h.png), auto;
+.research-card::before, .card::after, .projects-card::before {cursor: url(img/cursor-try.png), auto;
   position: absolute;
   top: 0;
   right: 0;
@@ -28,10 +28,10 @@ height:10vw; border-style:none;margin: 10px; transition:0.5s;
 .research-card:hover::before, .projects-card:hover::before,
 .research-card:hover::after, .projects-card:hover::after,
 .research-card:focus::before, .projects-card:focus::before,
-.research-card:focus::after,  .projects-card:focus::after{cursor: url(img/cursor_h.png), auto;
+.research-card:focus::after,  .projects-card:focus::after{cursor: url(img/cursor-try.png), auto;
   transform: scale3d(1, 1, 1);
 }
 .card-img-overlay{ background-image: radial-gradient(#DED0F2 1px, transparent 0);
- background-size: 15px 15px; cursor: url(img/cursor_h.png), auto;}
+ background-size: 15px 15px; cursor: url(img/cursor-try.png), auto;}
 .first{margin-left: 0px; }
-.card-title{margin: 0; padding:0px; cursor: url(img/cursor_h.png), auto;}
+.card-title{margin: 0; padding:0px; cursor: url(img/cursor-try.png), auto;}
