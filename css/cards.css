@@ -19,10 +19,10 @@ height:10vw; border-style:none;margin: 10px; transition:0.5s;
   content: '';
   pointer-events: none;
 }
-.research-card::before, .projects-card::before {
+.research-card::before, .projects-card::before {cursor: url(img/cursor-try.png), auto;
   transform-origin: left top;
 }
-.research-card::after, .projects-card::after {
+.research-card::after, .projects-card::after {cursor: url(img/cursor-try.png), auto;
   transform-origin: right bottom;
 }
 .research-card:hover::before, .projects-card:hover::before,
@@ -33,5 +33,5 @@ height:10vw; border-style:none;margin: 10px; transition:0.5s;
 }
 .card-img-overlay{ background-image: radial-gradient(#DED0F2 1px, transparent 0);
  background-size: 15px 15px; cursor: url(img/cursor-try.png), auto;}
-.first{margin-left: 0px; }
+.first{margin-left: 0px; cursor: url(img/cursor-try.png), auto; }
 .card-title{margin: 0; padding:0px; cursor: url(img/cursor-try.png), auto;}
