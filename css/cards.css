@@ -34,4 +34,4 @@ height:10vw; border-style:none;margin: 10px; transition:0.5s;
 .card-img-overlay{ background-image: radial-gradient(#DED0F2 1px, transparent 0);
  background-size: 15px 15px; cursor: url(img/cursor_h.png)}
 .first{margin-left: 0px; }
-.card-title{margin: 0; padding:0px;}
+.card-title{margin: 0; padding:0px; cursor: url(img/cursor_h.png)}
