@@ -35,3 +35,4 @@ height:10vw; border-style:none;margin: 10px; transition:0.5s;
  background-size: 15px 15px; cursor: url(img/cursor-try.png), auto;}
 .first{margin-left: 0px; cursor: url(img/cursor-try.png), auto; }
 .card-title{margin: 0; padding:0px; cursor: url(img/cursor-try.png), auto;}
+h5 {cursor: url(img/cursor-try.png), auto;}
