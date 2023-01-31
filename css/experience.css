@@ -21,7 +21,7 @@
     top: -5px;
     right: 0;
 }
-.main-timeline .timeline-content{
+.main-timeline .timeline-content{margin: 0;
     text-align: center;
     padding: 15px 80px 15px 10px;
     display: block;
@@ -50,9 +50,9 @@
     font-weight: 400;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    margin: 0 0 8px;
+    margin: 0 0 8px; padding: 0;
 }
-.main-timeline .description{
+.main-timeline .description{padding:0;
     font-size: 16px;
     margin: 0;
 }
@@ -77,4 +77,13 @@
 @media screen and (max-width:767px){
     .main-timeline .timeline{ width: 100%; }
 }
-.timeli{padding: 0px; }
+.timeli{padding: 0px; overflow:scroll; margin: 0;}
+.timeli::-webkit-scrollbar {
+    width: 1em;
+}
+.timeli::-webkit-scrollbar-track{background: #7F6487;}
+.timeli::-webkit-scrollbar-thumb {border-radius: 10px;
+  background-color: #977396;
+}
+.timeli::-webkit-scrollbar-corner{background:#7F6487;
+}
